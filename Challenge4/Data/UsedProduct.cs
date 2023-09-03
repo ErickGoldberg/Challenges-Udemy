@@ -22,7 +22,7 @@ namespace Challenge4.Data
 
         public override string ToString()
         {
-            return $"Name: {Name} (used) $ {Price} (Manufacture date: {ManufactureDate})";
+            return $"{Name} (used) $ {Price} (Manufacture date: {ManufactureDate})";
         }
     }
 }
